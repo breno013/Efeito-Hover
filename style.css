@@ -1,0 +1,84 @@
+
+*{ 
+    margin: 0;padding: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+}
+body{
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ height: 100vh;
+}
+.box{ 
+    width: 70px; 
+    height: 50px; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    overflow: hidden; 
+    padding: 10px; 
+    cursor: pointer; 
+    margin: 0.6em; 
+    transition: all .4s; 
+    color: white;
+   } 
+   .box:hover{ 
+    width: 200px; 
+    background: #c32aa3; 
+    border-radius: 10px; 
+    color: white; 
+    box-shadow: 0 0 50px #b315917c;
+   } 
+   .box:nth-child(2):hover{ 
+    background: #1877f2; 
+    box-shadow: 0 0 50px #1876f285; 
+   } 
+   .box:nth-child(3):hover{  
+    background: #1da1f2; 
+    box-shadow: 0 0 50px #1da0f280; 
+   } 
+   .box:nth-child(4):hover{ 
+    background: #25d366; 
+    box-shadow: 0 0 50px #25d3657e; 
+   } 
+   p{ 
+    transform: translate(30px); 
+   } 
+   .box .icon{ 
+    position: absolute; 
+    width: 50px; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    border-radius: 10px; 
+    margin-right: 10px; 
+    transition: all .4s; 
+   } 
+   .instagram{ 
+    background: #c32aa3; 
+    border-radius: 10px;
+    padding: 10px;
+   } 
+   .facebook{ 
+    background: #1877f2; 
+    border-radius: 10px;
+    padding: 8px;
+   } 
+   .twitter{ 
+    background: #1da1f2;
+    border-radius: 10px;
+    padding: 8px; 
+   } 
+   .whatsapp{ 
+    background: #25d366;
+    border-radius: 10px;
+    padding: 10px; 
+   } 
+   .box:hover .icon{ 
+    background: white; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.26); 
+    color: rgb(59, 59, 59); 
+   }
